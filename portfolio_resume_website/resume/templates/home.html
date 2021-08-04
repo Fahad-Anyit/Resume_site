@@ -1,0 +1,185 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'home.css' %}" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="img">
+        <img
+          src="{% static 'image/Fahad.jpg' %}"
+          class="profile"
+          alt="Fahad Anyit"
+          width="100"
+          height="100"
+        />
+      </div>
+      <div class="center">
+        <h2>Fahad Anyit</h2>
+      </div>
+      <h3>University of Engineering and Technology, Lahore</h3>
+      <ul class="social">
+        <li>
+          <a href="mailto:fahdanyit7@gmail.com" target="_blank"
+            ><img
+              src="{% static 'image/mail.png' %}"
+              alt="gmail"
+              width="30"
+              height="30"
+          /></a>
+        </li>
+        <li>
+          <a href="https://web.facebook.com/fahd.anyit/" target="_blank"
+            ><img
+              src="{% static 'image/facebook.png' %}"
+              alt="Facebook"
+              width="30"
+              height="30"
+          /></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/MIAN___FAHAD" target="_blank"
+            ><img
+              src="{% static 'image/twitter.png' %}"
+              alt="Twitter"
+              width="30"
+              height="30"
+          /></a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/mian-fahad-280201193/"
+            target="_blank"
+            ><img
+              src="{% static 'image/linkedin.png' %}"
+              alt="Linkedin"
+              width="30"
+              height="30"
+          /></a>
+        </li>
+      </ul>
+    </div>
+    <br />
+    <div class="resume">
+      <div class="education">
+        <h1>Education</h1>
+        <hr />
+        <ul>
+          <li>
+            <h2>Bsc. Electrcal Engineering- 3.41 CGPA</h2>
+            <h3>UET, Lahore</h3>
+            <p>
+              <img
+                src="{% static 'image/calendar.png' %}"
+                alt="Calender"
+                width="30"
+                height="30"
+              /><em>October 2017-June 2021</em>
+            </p>
+          </li>
+          <li>
+            <h2>Fsc (Pre-Engineering)- 91%</h2>
+            <h3>BISE Multan</h3>
+            <p>
+              <img
+                src="{% static 'image/calendar.png' %}"
+                alt="Calender"
+                width="30"
+                height="30"
+              /><em>2017</em>
+            </p>
+          </li>
+          <li>
+            <h2>Matriculation- 89.9%</h2>
+            <h3>BISE Multan</h3>
+            <p>
+              <img
+                src="{% static 'image/calendar.png' %}"
+                alt="Calender"
+                width="30"
+                height="30"
+              /><em>2015</em>
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div class="technical">
+        <h1>Technical Skills</h1>
+        <hr />
+        <ul>
+          <li>
+            <b><em>Python, C, C++, Jave, Verilog, Assembly</em></b>
+          </li>
+          <br />
+          <li>
+            <b><em>Django, MySQL, HTML, CSS, GIT</em></b>
+          </li>
+          <br />
+          <li>
+            <b><em>MATLAB, Xilinx ISE, Vivado</em></b>
+          </li>
+          <br />
+          <li>
+            <b><em>Microsoft Office, Latex</em></b>
+          </li>
+          <br />
+          <li>
+            <b><em>Proteus,Orcad,Multisim,Labview,PSSE</em></b>
+          </li>
+        </ul>
+      </div>
+      <div class="projects">
+        <h1>Projects</h1>
+        <hr />
+        <dl>
+          <dt>
+            <h2>
+              Implement Smart Metering functionality on RISC-v core using system
+              verilog(FYP)
+            </h2>
+          </dt>
+          <dd>
+            RISC-V is one of the emerging ISA which is open source.We used this
+            ISA to design hardware and implement Smart metering functionality on
+            RISC-v core using system verilog.
+          </dd>
+          <dt>
+            <h2>
+              <a
+              class="project"
+                href="https://lms.pythonanywhere.com/"
+                target="_blank"
+                >Parent-Teacher Interactive LMS</a
+              >
+              using Django
+            </h2>
+          </dt>
+          <dd>
+            We built LMS system using Pyhton or Django. Website has different
+            login system. Each student and teacher register himself and then
+            access their related things like student can access their own result
+            and parent can access the results of all of their children. while
+            teacher can conduct test and give marks.
+          </dd>
+          <dt><h2>Line Following Robot</h2></dt>
+          <dd>We have made Robot car which follows the black line with optimal speed.Black line is sensed by IR sensors.We used Tiva
+            launchpad controller to control the car. Robot car exactly followed the black line.</dd>
+            <dt><h2>Algorithm for Contact-Book</h2></dt>
+            <dd>I have implemented the Hash algorithm to get the efficient
+                contact-book.I included name, phone no, email, address in the
+                contact-book.Algorithm efficiently write, search the contacts
+                in the contct-book.</dd>
+                <dt><h2>Dual DC Power Supply</h2></dt>
+                <dd>We used the double tap transformer to stepdown the voltages
+                    and then convert to DC using ractier.Capacitors are used to remove ripples and some other diodes and capacitors to stabilize
+                    it.</dd>
+        </dl>
+      </div>
+    </div>
+  </body>
+</html>

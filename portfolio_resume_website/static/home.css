@@ -1,0 +1,61 @@
+
+.header{
+    background-color: aqua;
+
+}
+
+img.profile{
+    border-radius:50%;
+}
+
+.img{
+    float:left;
+}
+
+.center{
+    padding:25px;
+}
+
+ul.social{
+    list-style-type:none ;
+    margin:0;
+    padding:0;
+}
+ul.social li{
+    display:inline-block;
+}
+
+.resume{
+    background-color: beige;
+}
+.education, .technical, .projects{
+    display:inline-block;
+    padding:0 10vw 0 10vw
+}
+.technical{
+    float:right;
+}
+
+div.education ul{
+    list-style-type: none;
+}
+div.technical ul li{
+    font-size: 1.3em;
+}
+
+a.project:link{
+    color:black;
+    text-decoration: none;
+}
+a.project:visited{
+    color:black;
+    text-decoration: none;
+}
+a.project:hover{
+    color:blue;
+    text-decoration: none;
+}
+a.project:active{
+    color:black;
+    text-decoration: none;
+}
